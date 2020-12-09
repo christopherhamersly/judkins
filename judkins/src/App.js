@@ -10,6 +10,7 @@ import RollerSkating from './components/RollerSkating/rollerSkating'
 import Contact from './components/Contact/contact'
 import History from './components/History/history'
 import RollerHockey from './components/RollerHockey/rollerHockey'
+import Rules from './components/Rules/rules'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         <Switch>
           <Route path='/rollerhockey'>
             <RollerHockey />
+          </Route>
+          <Route path='/rules'>
+            <Rules />
           </Route>
           <Route path='/history'>
             <History />

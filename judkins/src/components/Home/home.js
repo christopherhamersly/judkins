@@ -4,7 +4,7 @@ import { Widget, addResponseMessage } from 'react-chat-widget'
 import 'react-chat-widget/lib/styles.css';
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
-
+import Calendar from '../Calendar/calendar'
 
 const useStyles = makeStyles((theme) => ({ 
   
@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
 function Home() {
 
   const classes = useStyles();
-  
+
   useEffect(() => {
     addResponseMessage('Judkins is meant to be a shared space.  Each user group has agreed to times to share the court.  Please refer to the calendar before using this shared space.');
   }, []);
@@ -26,6 +26,7 @@ function Home() {
 
   return (
     <>
+    <Calendar />
     <Typography variant='h4'>
       Monday
     </Typography>

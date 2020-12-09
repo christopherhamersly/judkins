@@ -10,7 +10,6 @@
     "emailjs-com": "^2.6.4",
     "import": "0.0.6",
     "react": "^17.0.1",
-    "react-big-calendar": "^0.30.0",
     "react-calendar": "^3.2.1",
     "react-chat-widget": "^3.0.5",
     "react-dom": "^17.0.1",
@@ -44,5 +43,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "moment": "^2.29.1",
+    "react-big-calendar": "^0.30.0",
+    "style-loader": "^2.0.0"
   }
 }

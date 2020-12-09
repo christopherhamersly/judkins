@@ -13,7 +13,7 @@ function Contact() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_jnyi882', 'template_khd6yu5', e.target, 'user_KW0vB700RZZeBNNRTVwcA')
+    emailjs.sendForm('service_p0xtwyx', 'template_tekiftt', e.target, 'user_KW0vB700RZZeBNNRTVwcA')
       .then((result) => {
         window.location.reload()
       }, (error) => {
