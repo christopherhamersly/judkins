@@ -25,7 +25,7 @@ function Footer() {
         align="center"
       >
         {"Copyright © "}
-        <Link color="inherit" href='mailto:christopherhamersly@gmail.com'>
+        <Link color="inherit" href="mailto:christopherhamersly@gmail.com">
           Chris Hamersly
         </Link>{" "}
         {new Date().getFullYear()}

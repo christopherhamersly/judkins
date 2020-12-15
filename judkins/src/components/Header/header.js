@@ -15,8 +15,8 @@ function Header() {
     <nav align='center'>
       <Typography variant='h1'>Judkins Park</Typography>
       <Link to='/'> Schedule </Link>
-      <Link to='/polo'> Polo </Link>
-      <Link to='/rollerhockey'> Roller Hockey </Link>
+      <Link to='/bike-polo'> Bike Polo </Link>
+      <Link to='/roller-hockey'> Roller Hockey </Link>
       <Link to='/futsal'> Futsal </Link>
       <Link to='/skating'> Skating </Link>
       <Link to='/history'> History </Link>
